@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom HTML</title>
+</head>
+
+<body>
+    <div>
+        <div class="friend">
+            <h3 class="friend-name">Friend-1</h3>
+            <p class="">Lorem, ipsum.</p>
+        </div>
+        <div class="friend">
+            <h3 class="friend-name">Friend-2</h3>
+            <p class="">Laudantium, numquam.</p>
+        </div>
+        <div class="friend">
+            <h3 class="friend-name">Friend-3</h3>
+            <p class="">Alias, molestias?</p>
+        </div>
+        <div class="friend">
+            <h3 id="f-4" class="friend-name">Friend-4</h3>
+            <p>Repudiandae, voluptatem!</p>
+        </div>
+    </div>
+    <script>
+        const blogTital = document.getElementsByTagName('h3');
+        for (const h3 of blogTital) {
+            console.log(h3.innerText);
+        }
+        const blogDetails = document.getElementsByTagName('p');
+        for (const p of blogDetails) {
+            console.log(p.innerText);
+        }
+        const secondTitle = document.getElementById('f-4');
+        secondTitle.style.textAlign = 'center';
+        secondTitle.innerText = '❤️ Sadia anjum ❤️';
+    </script>
+</body>
+
+</html>
