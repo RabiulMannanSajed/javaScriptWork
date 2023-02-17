@@ -42,4 +42,9 @@ makehotPink.addEventListener('click', function () {
     document.body.style.backgroundColor = 'hotpink';
 });
 
+// Most usefule way
+
+document.getElementById('light-blue').addEventListener('click', function () {
+    document.body.style.backgroundColor = 'lightblue';
+})
 
