@@ -29,13 +29,39 @@
             document.body.style.backgroundColor = 'white';
         })
         //keydown event handler
-        document.getElementById('delete-confirm').addEventListener('blur', function () {
-            document.body.style.backgroundColor = 'white';
-        })
-        // //blur event handler
-        // document.getElementById('delete-confirm').addEventListener('blur', function () {
-        //     document.body.style.backgroundColor = 'white';
+        // document.getElementById('delete-confirm').addEventListener('keydown', function () {
+        //     const deleteField = document.getElementById('delete-confirm');
+        //     console.log(deleteField.value);
+
         // })
+        // //keypress event handler
+        // document.getElementById('delete-confirm').addEventListener('keypress', function () {
+        //     const deleteField = document.getElementById('delete-confirm');
+
+        //     console.log(deleteField.value);
+        // })
+
+        //keyup event handler ***most use here u will find instand result 
+        /**
+         * this hole part is very important keyup and change use learn that part properly 
+         */
+
+        document.getElementById('delete-confirm').addEventListener('keyup', function () {
+            const deleteBtn = document.getElementById('delete-btn');
+            if (event.target.value == 'delete') {
+                deleteBtn.removeAttribute('disabled');  ///***removeAttribute() set to remove some attribute
+            }
+            else {
+                deleteBtn.setAttribute('disabled', true);
+            }
+
+        })
+        //change event handler ***most use here u will find instand result 
+        document.getElementById('delete-confirm').addEventListener('change', function () {
+            const deleteField = document.getElementById('delete-confirm');
+
+            console.log(deleteField.value);
+        })
     </script>
 </body>
 
