@@ -34,6 +34,7 @@
             const parent = document.getElementById('item-container');
             parent.appendChild(li);
         })
+        // event set in parent to take some benifit it's called Event delegate 25-9
         document.getElementById('item-container').addEventListener('click', function (event) {
             console.log(event.target);
             event.target.parentNode.removeChild(event.target);
