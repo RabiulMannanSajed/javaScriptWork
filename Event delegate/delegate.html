@@ -18,6 +18,27 @@
         <li class="item">Tempora, enim fuga! Facilis, est!</li>
         <li class="item">Magnam velit eligendi rem molestiae?</li>
     </ul>
+    <button id="add-item">Add items</button>
+    <script>
+        // const items = document.getElementsByClassName('item');
+        // for (const item of items) {
+        //     item.addEventListener('click', function () {
+        //         // document.getElementById('item-container').removeChild(item);  //1st away to remove element from 
+        //         event.target.parentNode.removeChild(event.target);
+        //     })
+        // }
+        document.getElementById('add-item').addEventListener('click', function () {
+            const li = document.createElement('li');
+            li.innerText = 'Sajed';
+            li.classList.add('item');
+            const parent = document.getElementById('item-container');
+            parent.appendChild(li);
+        })
+        document.getElementById('item-container').addEventListener('click', function (event) {
+            console.log(event.target);
+            event.target.parentNode.removeChild(event.target);
+        })
+    </script>
 </body>
 
 </html>
