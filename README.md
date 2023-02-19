@@ -8,3 +8,4 @@ event.stopPropagation(); how to work that
  event.stopImmediatePropagation(); how to work that 
 
 
+26-1 start
