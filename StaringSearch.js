@@ -30,3 +30,19 @@ for (const product of products) {
     }
 }
 console.log(output);
+
+// String add 
+const userFirstName = "Rabiul";
+const userLastName = "Sajed";
+
+const add = userFirstName + " " + userLastName;
+console.log(add);
+
+// concat method
+const concatAdd = userFirstName.concat(userLastName);
+console.log(concatAdd);
+
+// join method
+const words = ['s', 'a', 'd', 'i', 'a'];
+const allJoined = words.join();
+console.log(allJoined);
