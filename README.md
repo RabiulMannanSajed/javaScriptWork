@@ -33,3 +33,6 @@ method extracts characters, between two indices (positions), from a string, and 
 * <a href="https://www.w3schools.com/jsref/jsref_concat_string.asp"> concat()</a>
 joins two or more strings.Does not change the existing strings.Returns a new string.
 
+* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments">arguments</a>  this is an array like object but not array . We can not add & remove form this like array 
+
+
