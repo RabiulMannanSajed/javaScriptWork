@@ -37,7 +37,7 @@ joins two or more strings.Does not change the existing strings.Returns a new str
  <p>  How slice() method work
  It's only can remove item from given start index to before of the given last index 
   </br>
-  *  slice( 3 , 6);
+  *  slice( 3 , 6); </br>
   [2,5,4,8,69,5,8,4]</br>
    0 1 2 3  4  5 6 7 <- index 
    out put index [8,69,5]</br>
