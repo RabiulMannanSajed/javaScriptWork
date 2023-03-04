@@ -40,13 +40,11 @@ joins two or more strings.Does not change the existing strings.Returns a new str
    * Remove element =>
     splice(first is index number , second how many element you want to delete)
   splice( 4, 2)
- * Add element 
+    * Add element 
  splice(4,0,item, item)
  Here 4 index number '0' in this place can any value item is you value which you want to  add
-
-
-
   </p>
+
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments">arguments</a>  this is an array like object but not array . We can not add & remove form this like array 
 
 
