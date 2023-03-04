@@ -33,14 +33,26 @@ method extracts characters, between two indices (positions), from a string, and 
 * <a href="https://www.w3schools.com/jsref/jsref_concat_string.asp"> concat()</a>
 joins two or more strings.Does not change the existing strings.Returns a new string.
 
+* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">array.slice()</a>
+ <p>  How slice() method work
+ It's only can remove item from given start index to before of the given last index 
+  </br>
+  *  slice( 3 , 6);
+  [2,5,4,8,69,5,8,4]
+   0 1 2 3  4  5 6 7 <- index 
+   out put index [8,69,5]
+                   3 4 5 
+ </p>
+
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">array.splice()</a> 
-* How it's work 
+
+* How splice() method work 
   <p>we can remove and add item by this method  
 
-   * Remove element =>
+   * Remove element => </br>
     splice(first is index number , second how many element you want to delete)
   splice( 4, 2)
-    * Add element </br>
+    * Add element => </br>
  splice(4,0,item, item)
  Here 4 index number '0' in this place can any value item is you value which you want to  add
   </p>
