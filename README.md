@@ -38,9 +38,9 @@ joins two or more strings.Does not change the existing strings.Returns a new str
  It's only can remove item from given start index to before of the given last index 
   </br>
   *  slice( 3 , 6);
-  [2,5,4,8,69,5,8,4]
+  [2,5,4,8,69,5,8,4]</br>
    0 1 2 3  4  5 6 7 <- index 
-   out put index [8,69,5]
+   out put index [8,69,5]</br>
                    3 4 5 
  </p>
 
