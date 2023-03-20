@@ -19,5 +19,5 @@ function nameAdd() {
     }
     return name;
 }
-const name = nameAdd('rabiul', 'mannan', 'sjaed')
+const name = nameAdd('rabiul', 'mannan', 'sajed')
 console.log(name);
