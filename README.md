@@ -64,4 +64,5 @@ joins two or more strings.Does not change the existing strings.Returns a new str
 
 * For error learn more here <a href="https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/error/error/index.md?plain=1 ">ERROR</a> 
 
+try catch not update 29-8 video 
 
