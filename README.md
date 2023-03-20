@@ -62,6 +62,6 @@ joins two or more strings.Does not change the existing strings.Returns a new str
 
 * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments">arguments</a>  this is an array like object but not array . We can not add & remove form this like array 
 
-For error learn more here <a href="https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/error/error/index.md?plain=1 ">ERROR</a> 
+* For error learn more here <a href="https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/error/error/index.md?plain=1 ">ERROR</a> 
 
 
