@@ -26,12 +26,21 @@ const maxInArray = Math.max(...numbers);
 console.log(maxInArray);
 console.log(...numbers);
 
+function maxNumber(array = []) {
+    const max = Math.max(...array);
+    return max;
+}
+const biggest = maxNumber();
+console.log(biggest);
 
+function sum(a, b = 2) {
+    const sum = a + b;
+    return sum;
+}
+const num = sum(1);
+console.log(num);
 
-
-
-
-
-
+const square = x => x + x;
+console.log(square(2));
 
 

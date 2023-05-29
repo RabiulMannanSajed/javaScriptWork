@@ -6,6 +6,8 @@ const fish = {
     phone: 26592659656,
     dress: 'selver',
 }
+const {phone,price,dress,id}= fish; // this is the we also can find the the result 
+
 const phone=fish.phone;
 const price=fish.price;
 const dress=fish.dress;
@@ -16,7 +18,7 @@ console.log(phone);
 console.log(phone);
 console.log(phone);*/
 
-
+/* 
 
 const company = {
     name: 'spc',
@@ -45,16 +47,6 @@ const { food } = company.ceo;
 const { frist, second, third } = company.web.tech;
 console.log(work, framework, food, frist, second, third);
 
-
-
-
-
-
-
-
-
-
-
-
+ */
 
 

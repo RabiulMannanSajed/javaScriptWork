@@ -40,8 +40,8 @@ const company = {
         }
     }
 }
-
-
+const emloyee = company.web?.sex;
+console.log(emloyee);
 
 
 
